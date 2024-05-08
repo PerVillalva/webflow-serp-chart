@@ -1,0 +1,12 @@
+{
+  "extends": "@finsweet/tsconfig",
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": "./",
+    "lib": ["ES2017", "DOM"],
+    "paths": {
+      "$utils/*": ["src/chart/*"]
+    },
+    "types": ["@finsweet/ts-utils"]
+  }
+}
